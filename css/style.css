@@ -10,7 +10,21 @@ body{
     
 }
 
+/* navbar */
+nav{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    z-index: 99;
+    /* debug */
+    background-color: blanchedalmond;
+    width: 300px;
+    font-size: large;
+    color: black;
+}
 
+
+/* sezione contenitori larghezza vh */
 .container{
     height: 100vh;
     position: relative;
@@ -33,6 +47,8 @@ body{
     width: 100%;
     color: yellow;
 }
+
+/* personalizzazione contenitori */
 
 #cont-1{
     background-color: red;
