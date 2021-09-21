@@ -16,11 +16,7 @@ nav{
     top: 30px;
     right: 20px;
     z-index: 99;
-    color: black;
-    /* debug */
-    /* width: 300px; */
-    /* background-color: blanchedalmond;
-    font-size: large; */
+
 }
 ul{
     text-decoration: none;
@@ -38,7 +34,10 @@ li{
     vertical-align: middle;
     font-size: 11px;
 }
-
+nav a{
+    text-decoration: none;
+    color: black;
+}
 
 /* sezione contenitori larghezza vh */
 .container{
