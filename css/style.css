@@ -18,9 +18,7 @@ nav{
     z-index: 99;
 
 }
-ul{
-    text-decoration: none;
-}
+
 li{
     display: inline-block;
     cursor: pointer;
