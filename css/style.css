@@ -1,1 +1,51 @@
-/* font-family: ‘Rubik Mono One’, sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}
+
+
+.container{
+    height: 100vh;
+    position: relative;
+}
+
+
+.container img{
+    position: absolute;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;    
+}
+
+.title{
+    position: absolute;
+    bottom: 5vh;
+    text-align: center;
+    width: 100%;
+    color: yellow;
+}
+
+#cont-1{
+    background-color: red;
+}
+
+#cont-2{
+    background-color: green;
+}
+
+#cont-3{
+    background-color: yellow;
+}
+
+#cont-3 .title{
+    color: green;
+}
