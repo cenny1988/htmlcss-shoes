@@ -16,11 +16,27 @@ nav{
     top: 30px;
     right: 20px;
     z-index: 99;
-    /* debug */
-    background-color: blanchedalmond;
-    width: 300px;
-    font-size: large;
     color: black;
+    /* debug */
+    /* width: 300px; */
+    /* background-color: blanchedalmond;
+    font-size: large; */
+}
+ul{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 11px;
 }
 
 
